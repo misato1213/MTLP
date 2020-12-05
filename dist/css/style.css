@@ -1,0 +1,145 @@
+body {
+    background: #FFF;
+    color: #000;
+}
+.margin-tb {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.margin-bottom {
+    margin-bottom: 130px;
+}
+.padding-tb {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Navi */
+.navbar-custom {
+    background-color: #FFF;
+    color: #000; 
+}
+.navbar-custom a:hover {
+    background-color: #FFF;
+    color: #999; 
+}
+.navbar-custom a:link {
+    background-color: #FFF;
+    color: #000; 
+}
+/* TOP */
+.top-img {
+    width: 70%;
+}
+.parent {
+    width: auto;
+    height: auto;
+    background-image:
+    linear-gradient(40deg, #4040c5 55%, #fff 45%, #fff);
+}
+.top-text h2{
+    font-weight: 500;
+    font-size: 250%;
+    color: #FFF; 
+    text-align: center;    
+}
+.top-text p{
+    padding-top: 20px;
+    font-weight: 200;
+    font-size: 120%;
+    color: #FFF; 
+    text-align: center;    
+}
+/* Contents */
+.con-title h3{
+    font-weight: 500;
+    font-size: 200%;
+    text-align: center;  
+}
+.con-title p{
+    font-weight: 100;
+    font-size: 120%;
+    text-align: center;  
+}
+/* Menue */
+.menue-style {
+    background-color: #dbdbdb;
+    padding: 70px 0px 50px 0px ;
+}
+/* Card */
+.card-body-title{
+    background-color: #4040c5;
+    color: #FFF;
+    padding: 15px 5px 5px 15px;
+    border-radius: 2%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.media-icon {
+    height: 80px;
+}
+.card-text .media-icon {
+    height: 28%;
+}
+.card-text-contents .row {
+    margin: 10px 0px 0px 0px;
+    height: 100px;
+    /* text-align: start; */
+}
+.card-text-detail {
+    /* text-align: start; */
+    padding: 0px 0px 0px 30px;
+}
+.menue-last-memo {
+    font-size: smaller;
+    text-align: center;
+}
+/* .padding-card-icon  {
+    padding: 10px 5px 5px 10px;
+} */
+
+.spe-padding {
+    padding:0px 150px 00px 150px;
+}
+
+.speciality-border {
+    border-top: #4040c5 solid 10px;
+}
+.procuct-s-title {
+    margin: 0;
+    position: relative;
+    /* font-size: 35px; */
+    text-align: center;
+    padding: 20px 0 15px;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    width: 500px;
+    margin: 0 auto 35px;
+}
+.product-styles {
+    border: #4040c5 double 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 90px;
+    text-align: center;
+}
+.procuct-s-title2 h9 {
+    position: relative;
+    padding: 0 65px;
+    text-align: center;
+}
+.procuct-s-title2 h9:before {
+    position: absolute;
+    top: calc(50% - 1px);
+    left: 0;
+    width: 100%;
+    height: 2px;
+    content: '';
+    background: #000;
+}
+  
+.procuct-s-title2 h9 span {
+    position: relative;
+    padding: 0 1em;
+    background: #fff;
+}
+  
