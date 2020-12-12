@@ -13,6 +13,19 @@ body {
     padding-top: 30px;
     padding-bottom: 30px;
 }
+.item-center {
+    text-align: center;
+}
+.text-red {
+    color: #f00;
+}
+.ul-style-none {
+    list-style: none;
+    display: inline-block;
+}
+.text-left {
+    text-align: left;
+}
 /* Navi */
 .navbar-custom {
     background-color: #FFF;
@@ -26,6 +39,8 @@ body {
     background-color: #FFF;
     color: #000; 
 }
+
+
 /* TOP */
 .top-img {
     width: 70%;
@@ -53,12 +68,16 @@ body {
 .con-title h3{
     font-weight: 500;
     font-size: 200%;
-    text-align: center;  
+    text-align: center;
+    margin-bottom: 40px; 
+}
+.con-title h4{
+    margin-bottom: 30px; 
 }
 .con-title p{
     font-weight: 100;
     font-size: 120%;
-    text-align: center;  
+    text-align: center;
 }
 /* Menue */
 .menue-style {
@@ -96,13 +115,25 @@ body {
 /* .padding-card-icon  {
     padding: 10px 5px 5px 10px;
 } */
-
-.spe-padding {
-    padding:0px 150px 00px 150px;
+@media screen and (min-width: 960px) {
+    .spe-padding {
+        padding:0px 150px 0px 150px;
+    }
+    .spe-padding2 {
+        padding:0px 200px 0px 200px;
+    }
+    .css-br { 
+        display: block;
+    }
+    .question-border {
+        border-right: dotted #999 3px;
+    }
+ }
+.devided-border {
+    border-top: #4040c5 solid 5px;
 }
-
-.speciality-border {
-    border-top: #4040c5 solid 10px;
+.devided-margin {
+    margin-right: 40px;
 }
 .procuct-s-title {
     margin: 0;
@@ -112,19 +143,23 @@ body {
     padding: 20px 0 15px;
     border-top: solid 2px;
     border-bottom: solid 2px;
-    width: 500px;
+    width: 50%;
     margin: 0 auto 35px;
 }
 .product-styles {
     border: #4040c5 double 5px;
     border-radius: 10px;
-    margin-right: 10px;
-    margin-left: 90px;
+    margin: 5px 0px 35px 0px;
+    /* margin-bottom: 35px; */
     text-align: center;
+}
+.product-styles h5,
+.product-styles2 h5 {
+    padding: 15px 0px 15px 0px;
 }
 .procuct-s-title2 h9 {
     position: relative;
-    padding: 0 65px;
+    padding:  60px;
     text-align: center;
 }
 .procuct-s-title2 h9:before {
@@ -136,10 +171,48 @@ body {
     content: '';
     background: #000;
 }
-  
 .procuct-s-title2 h9 span {
     position: relative;
     padding: 0 1em;
     background: #fff;
 }
+.product-styles2 {
+    padding: 0px  30px 0px 30px;
+}
+.product-styles3 {
+    margin: 30px  15px 30px 15px;
+}
+.product-styles3 h5 {
+    text-align: center;
+    background-color: #4040c5;
+    margin: 0px  30px 0px 30px;
+    padding: 25px 0px 20px 0px;
+    color: #FFF;
+}
+.product-styles3 h6 {
+    text-align: center;
+    background-color: #4040c5;
+    margin: 0px  30px 0px 30px;
+    padding: 5px 0px 25px 0px;
+    color: #FFF;
+    font-size: 120%;
+}
+.con-text h6 {
+    font-weight: 300;
+    font-size: 110%;
+    color: #cb2bf3;
+}
+.list-styles {
+    /* margin: 16px auto; */
+    text-align: center;
+    /* display: block; */
+}
+.list-styles ul {
+    text-align: left;
+    display: inline-block;
+}
+ #ture {
+    text-align-last: justify;       /* Chrome・Firefox用 */
+    text-justify: inter-ideograph;  /* IE・Edge用 */
+ }
   
