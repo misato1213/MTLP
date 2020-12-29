@@ -1,30 +1,81 @@
 body {
-    background: #FFF;
+    background: #ffffff;
     color: #000;
+    font-family: Source Han Sans JP,
+                "Hiragino Kaku Gothic ProN",
+                "Hiragino Sans",;
+}
+.css-br { 
+    display: block;
+}
+.css-br2 { 
+    display: block;
+    font-size: 1.875rem;
+    text-shadow: 0px 0px 0px #00000033;
+    font-weight: normal;
+}
+.css-br-min { 
+    display: block;
 }
 .margin-tb {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
 }
 .margin-bottom {
-    margin-bottom: 130px;
+    margin-bottom: 8.125rem;
+}
+.margin-bottom-50 {
+    margin-bottom: 3.125rem;
+}
+.margin-top-0 {
+    margin-top: 0rem;
 }
 .padding-tb {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
 }
+.padding-bottom-0 {
+    padding-bottom: 0px;
+}
+.padding-bottom-20 {
+    padding-bottom: 0.7rem;
+}
+.padding-bottom-50 {
+    padding-bottom: 3.125rem;
+}
+.padding-bottom-0{
+    padding-bottom: 0rem;
+}
+
 .item-center {
     text-align: center;
 }
 .text-red {
     color: #f00;
 }
-.ul-style-none {
-    list-style: none;
-    display: inline-block;
+.text-yellow {
+    color: #ff0;
 }
-.text-left {
-    text-align: left;
+.icon-styles {
+    width: 45px;
+    height: 45px;
+}
+.icon-styles2 {
+    width: 20px;
+    height: auto;
+}
+footer h1 {
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+footer h2,
+footer p,
+footer ul {
+    font-size: 90%;
+}
+.logoConsul {
+    height: 140px;
 }
 /* Navi */
 .navbar-custom {
@@ -39,37 +90,50 @@ body {
     background-color: #FFF;
     color: #000; 
 }
-
+.item-center2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoMT {
+    height: 40px
+}
 
 /* TOP */
 .top-img {
-    width: 70%;
+    width: 15rem;
 }
 .parent {
     width: auto;
     height: auto;
     background-image:
-    linear-gradient(40deg, #4040c5 55%, #fff 45%, #fff);
+    linear-gradient(45deg, #617FC5 60%, #fff 40%, #fff);
+}
+.top-text {
+    padding: 0rem 0.5rem 0rem 0.5rem;
+    text-align: left;
+    display: block;
 }
 .top-text h2{
     font-weight: 500;
-    font-size: 250%;
+    font-size: 2.1rem;
     color: #FFF; 
-    text-align: center;    
+    font-family: Hiragino Kaku Gothic ProN;   
 }
 .top-text p{
-    padding-top: 20px;
+    padding-top: 0.5rem;
     font-weight: 200;
-    font-size: 120%;
+    font-size: 0.9rem;
     color: #FFF; 
-    text-align: center;    
+    font-family: Hiragino Kaku Gothic ProN;    
 }
 /* Contents */
 .con-title h3{
     font-weight: 500;
     font-size: 200%;
     text-align: center;
-    margin-bottom: 40px; 
+    margin-bottom: 2.5rem;
+    font: normal normal 600 40px/48px Yu Mincho;
 }
 .con-title h4{
     margin-bottom: 30px; 
@@ -86,18 +150,43 @@ body {
 }
 /* Card */
 .card-body-title{
-    background-color: #4040c5;
+    text-shadow: 1px 3px 1px #00000033;
+    background-color: #617FC5;
     color: #FFF;
-    padding: 15px 5px 5px 15px;
+    padding: 15px 5px 15px 5px;
     border-radius: 2%;
     margin-bottom: 30px;
     text-align: center;
+    font-size: 1.2rem;
+}
+.card-body-title2{
+    text-shadow: 1px 3px 1px #00000033;
+    background-color: #617FC5;
+    color: #FFF;
+    padding: 15px 5px 15px 5px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+    font-size: 1.2rem;
+    border: 0rem ;
+}
+.card-devided-border {
+    border-top: #fff solid 0.1rem;
+    padding: 0rem 0rem 0.6rem 0rem;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-body-title h4 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card-body-title2 h4 {
+    font-size: 2rem;
+    font-weight: bold;
 }
 .media-icon {
     height: 80px;
-}
-.card-text .media-icon {
-    height: 28%;
 }
 .card-text-contents .row {
     margin: 10px 0px 0px 0px;
@@ -106,7 +195,8 @@ body {
 }
 .card-text-detail {
     /* text-align: start; */
-    padding: 0px 0px 0px 30px;
+    padding: 0px 0px 0px 0px;
+    font-size: 1rem;
 }
 .menue-last-memo {
     font-size: smaller;
@@ -115,47 +205,35 @@ body {
 /* .padding-card-icon  {
     padding: 10px 5px 5px 10px;
 } */
-@media screen and (min-width: 960px) {
-    .spe-padding {
-        padding:0px 150px 0px 150px;
-    }
-    .spe-padding2 {
-        padding:0px 200px 0px 200px;
-    }
-    .css-br { 
-        display: block;
-    }
-    .question-border {
-        border-right: dotted #999 3px;
-    }
- }
 .devided-border {
-    border-top: #4040c5 solid 5px;
+    border-top: #0F6FB8 solid 0.3125rem;
 }
 .devided-margin {
-    margin-right: 40px;
+    margin-right: 2.5rem;
 }
+
 .procuct-s-title {
     margin: 0;
-    position: relative;
-    /* font-size: 35px; */
+    /* position: relative; */
+    font-size: 1.5rem;
     text-align: center;
-    padding: 20px 0 15px;
-    border-top: solid 2px;
-    border-bottom: solid 2px;
-    width: 50%;
-    margin: 0 auto 35px;
+    padding: 1rem 0 0.8rem;
+    border-top: solid;
+    border-bottom: solid ;
+    /* width: 50%; */
+    margin: 0 auto 2rem;
 }
 .product-styles {
-    border: #4040c5 double 5px;
-    border-radius: 10px;
-    margin: 5px 0px 35px 0px;
-    /* margin-bottom: 35px; */
-    text-align: center;
+    padding: 30px 15px 30px 15px;
+}
+.border-styles {
+    border-radius: 25px;
+    border: 0.4rem double #2580EC;
+    width: 100%;
 }
 .product-styles h5,
 .product-styles2 h5 {
-    padding: 15px 0px 15px 0px;
+    padding: 20px 0px 20px 0px;
 }
 .procuct-s-title2 h9 {
     position: relative;
@@ -173,7 +251,7 @@ body {
 }
 .procuct-s-title2 h9 span {
     position: relative;
-    padding: 0 1em;
+    padding: 0 0.7em;
     background: #fff;
 }
 .product-styles2 {
@@ -211,8 +289,170 @@ body {
     text-align: left;
     display: inline-block;
 }
+.list-styles-none {
+    text-align: center;
+}
+.list-styles-none ul {
+    text-align: left;
+    display: inline-block;
+    list-style: none;
+}
+.list-styles h5{
+    margin-top: 0.6rem;
+    padding-bottom: 0rem;
+}
+.list-styles h9{
+    padding-bottom: 1.2rem;
+}
+.list-styles ul{
+    margin-top: 1.4rem;
+    margin-bottom: 1.4rem;
+}
+.list-squer{
+    padding-left:0.03rem;
+}
+.list-squer li{
+    background-image:url(../../img/icon-checkbox.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+    padding-left: 1.2rem;
+    margin-bottom: 0.8rem;
+}
+.brackets-wave-left:before {
+    content: '~';
+    padding-right: 0.7rem;
+}
+.brackets-wave-right:before {
+    content: '~';
+    padding-left: 0.7rem;
+}
  #ture {
     text-align-last: justify;       /* Chrome・Firefox用 */
     text-justify: inter-ideograph;  /* IE・Edge用 */
  }
-  
+
+/* 特徴 */
+ #Feature img {
+     margin: 0.5rem 0rem 0.5rem 0rem;
+     width: 110%;
+     height: auto;
+ }
+ .border-feature {
+     border-bottom: #999 solid 0.06rem;
+ }
+ .bg-feature1{
+     background: #FFF8F8;
+     border-radius: 1.4rem 1.4rem 0rem 0rem;
+     padding: 0.6rem 0rem 0rem 0rem;
+     margin: 0rem;
+     background-clip: content-box;
+ }
+ .bg-feature2{
+     background-color: #C7D5FB;
+     border-radius: 0.8rem 0.8rem 0rem 0rem;
+ }
+ .char-vertical {
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+ }
+
+/* 利用場面 */
+#situation h9 {
+    padding-bottom: 0rem;
+    display: block;
+}
+ .stuation-title-border {
+    border-top: #DEDEDE solid 0.1rem;
+    border-bottom: #DEDEDE solid 0.1rem;
+    padding: 0.6rem 0rem 0.6rem 0rem;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    .text-left {
+        /* text-align: left; */
+        display: inline-block;
+        padding-left: 88px;
+    }
+    .spe-padding {
+        padding:0px 150px 0px 150px;
+    }
+    .spe-padding2 {
+        padding:0px 150px 0px 150px;
+    }
+    .question-border {
+        border-right: dotted #999 3px;
+    }
+ }
+ 
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 90%;
+    }
+    .parent {
+        width: auto;
+        height: auto;
+        background-image:
+        linear-gradient(27deg, #617FC5 60%, #fff 40%, #fff);
+    }
+    .top-text {
+        padding: 2rem 0rem 2rem 0rem;
+        text-align: left;
+        display: block;
+    }
+    .top-text h2{
+        font-weight: 500;
+        font-size: 2.7rem;
+        color: #FFF; 
+        font-family: Hiragino Kaku Gothic ProN;   
+    }
+    .top-text p{
+        padding-top: 1.25rem;
+        font-weight: 300;
+        font-size: 1.4rem;
+        color: #FFF; 
+        font-family: Hiragino Kaku Gothic ProN;
+    }  
+    .stuation-title-border {
+       border-top: #DEDEDE solid 0.1rem;
+       border-bottom: #DEDEDE solid 0.1rem;
+       padding: 0.6rem 0rem 0.6rem 0rem;
+       width: 50%;
+       display: block;
+       text-align: center;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .border-styles {
+       border-radius: 25px;
+       border: 0.4rem double #2580EC;
+       width: 90%;
+   }
+   .list-squer li{
+       background-image:url(../../img/icon-checkbox.png);
+       background-repeat:no-repeat;
+       background-position:left center;
+       padding-left: 2rem;
+       margin-bottom: 0.8rem;
+   }
+   .padding-tb-sm {
+       padding-top: 1.875rem;
+       padding-bottom: 1.875rem;
+   }
+   .char-vertical {
+      -ms-writing-mode: horizontal-tb;
+      writing-mode: horizontal-tb;
+   }
+   .css-br-min { 
+       display: inline;
+   }
+ }
+@media screen and (min-width: 400px){ 
+
+}
