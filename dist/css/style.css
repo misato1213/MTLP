@@ -195,7 +195,7 @@ footer a:hover {
     font: normal normal 500 1.5rem Yu Mincho;
 }
 .con-title h4{
-    margin-bottom: 1.875rem; 
+    /*margin-bottom: 1.875rem;*/ 
 }
 .con-title p{
     text-align: center;
@@ -643,7 +643,7 @@ h5{
         color: #3B4043;
     }
     .con-title h4{
-        margin-bottom: 1.875rem; 
+        /*margin-bottom: 1.875rem;*/ 
     }
     .con-title p{
         text-align: center;
