@@ -264,6 +264,7 @@ footer a:hover {
 .card-text-contents .row {
     margin: 0 6% 0 9%;
     height: 70px;
+    font-size:1rem;
     /* text-align: start; */
 }
 .menucard{
@@ -720,8 +721,26 @@ h5{
        font-size: 80%;
    }
  }
+@media screen and (min-width: 0px) and ( max-width:389px){
+/*　画面サイズが390pxから768pxまではここを読み込む　*/ 
+.card-text-contents .row {
+    margin: 0 0 0 0;
+   }
+}
+@media screen and (min-width: 390px) and ( max-width:768px){
+/*　画面サイズが390pxから768pxまではここを読み込む　*/ 
+.card-text-contents .row {
+    margin: 0 6% 0 6%;
+   }
+}
+@media screen and (min-width: 769px) and ( max-width:991px){
+/*　画面サイズが769pxから991pxまではここを読み込む　*/ 
+.card-text-contents .row {
+    margin: 0 6% 0 19%;
+   }
+}
 @media screen and (min-width: 0px) and ( max-width:575px){
-/*　画面サイズが400pxからはここを読み込む　*/
+/*　画面サイズが0pxから400pxまではここを読み込む　*/
 	.margin-bottom {
     margin-bottom: 2rem;
 }
@@ -732,6 +751,9 @@ h5{
 	.con-title{
 	margin-bottom: 1rem;
 	}
+	.menue-style {
+  	  padding: 2rem 0;
+}
 }
 @media screen and (min-width: 400px){ 
 /*　画面サイズが400pxからはここを読み込む　*/
