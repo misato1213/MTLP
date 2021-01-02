@@ -1,12 +1,32 @@
 body {
     background: #ffffff;
     color: #000;
-    font-family: Source Han Sans JP,
+    font-family: '源ノ角ゴシック',
+    			 'Source Han Sans JP',
                 "Hiragino Kaku Gothic ProN",
                 "Hiragino Sans";
 }
+.text-left {
+        display: inline-block;
+    }
 .css-br { 
     display: block;
+    letter-spacing: 4.24px;
+}
+.css-br-sub { 
+    display: block;
+    line-height: 1 !important;
+    font-weight: bold;
+}
+.css-card{
+    display: block;
+}
+.text-small{
+	font-size:1rem;
+}
+.text-small2{
+	font-size:1rem;
+	font-weight: bold;
 }
 .css-br2 { 
     display: block;
@@ -19,11 +39,15 @@ body {
     display: block;
 }
 .margin-tb {
-    margin-top: 3.125rem;
-    margin-bottom: 3.125rem;
+    /*margin-top: 3.125rem;*/
+    /*margin-bottom: 3.125rem;*/
 }
-.margin-bottom {
-    margin-bottom: 8.125rem;
+
+.margin-bottom-20 {
+    margin-bottom: 1.5rem;
+}
+.margin-bottom-25 {
+    margin-bottom: 1.7rem;
 }
 .margin-bottom-50 {
     margin-bottom: 3.125rem;
@@ -31,9 +55,27 @@ body {
 .margin-top-0 {
     margin-top: 0rem;
 }
+.margin-top-100 {
+    margin-top: 3.125rem;
+}
+.padding-top-100 {
+    padding-top: 3.125rem;
+}
+.padding-top-200 {
+    padding-top: 6.25rem;
+}
+.padding-top-300 {
+    padding: 7.5rem 0 4.5rem 0;
+}
+.margin-top-toku {
+    margin-top: 1rem;
+}
 .padding-tb {
     padding-top: 1.875rem;
-    padding-bottom: 1.875rem;
+    padding-bottom: 1.2rem;
+}
+.padding-top {
+    padding-top: 3rem;
 }
 .padding-bottom-0 {
     padding-bottom: 0px;
@@ -44,11 +86,14 @@ body {
 .padding-bottom-50 {
     padding-bottom: 3.125rem;
 }
-.padding-bottom-0{
-    padding-bottom: 0rem;
+.padding-bottom-100{
+    padding-bottom: 6.25rem;
 }
 .item-center {
     text-align: center;
+}
+.margin-saido{
+	margin: 0 3rem 1rem 3rem!important;
 }
 .text-red {
     color: #f00;
@@ -113,7 +158,9 @@ footer a:hover {
 .logoMT {
     height: 1.8rem
 }
-
+.logoMT2 {
+    height: 2.8rem
+}
 /* TOP */
 .top-img {
     width: 15rem;
@@ -125,8 +172,8 @@ footer a:hover {
     linear-gradient(45deg, #617FC5 60%, #fff 40%, #fff);
 }
 .top-text {
-    padding: 0rem 0.5rem 0rem 0.5rem;
-    text-align: left;
+    padding: 1rem 0.5rem 0rem 0.5rem;
+    text-align: center;
     display: block;
 }
 .top-text h2{
@@ -145,7 +192,6 @@ footer a:hover {
 /* Contents */
 .con-title h3{
     text-align: center;
-    margin-bottom: 1.2rem;
     font: normal normal 500 1.5rem Yu Mincho;
 }
 .con-title h4{
@@ -155,12 +201,28 @@ footer a:hover {
     text-align: center;
     font: normal normal bold 1rem Source Han Sans JP;
 }
+.con-bottom{
+	margin-bottom: 2rem; 
+}
+
 /* Menue */
 .menue-style {
-    background-color: #dbdbdb;
-    padding: 70px 0px 50px 0px ;
+    background-color: #F6F6F6;
+    padding: 2rem;
 }
 /* Card */
+.card{
+  border-radius: 2px!important;
+  border: 0px!important;
+}
+.card-body {
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #6F757966;
+  border-radius: 2px;
+  opacity: 1;
+  padding: 1rem!important;
+}
+
 .card-body-title{
     text-shadow: 0.06rem 0.18rem 0.06rem #00000033;
     background-color: #617FC5;
@@ -183,13 +245,13 @@ footer a:hover {
 .card-devided-border {
     border-top: #fff solid 0.1rem;
     padding: 0rem 0rem 0.6rem 0rem;
-    width: 70%;
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 .card-body-title h4 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
 }
 .card-body-title2 h4 {
@@ -200,10 +262,38 @@ footer a:hover {
     height: 80px;
 }
 .card-text-contents .row {
-    margin: 10px 0px 0px 0px;
-    height: 100px;
+    margin: 0 6% 0 9%;
+    height: 70px;
     /* text-align: start; */
 }
+.menucard{
+	margin-bottom: 0.5rem!important;
+	font-weight: bold;
+}
+.menutext{
+	font-size:2.5rem!important;
+}
+.btn2 {
+	padding: 1rem 1rem!important;
+	border-radius: 2rem!important;
+}
+.row2 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.row3 {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
 .card-text-detail {
     /* text-align: start; */
     padding: 0rem 0rem 0rem 0.5rem;
@@ -241,6 +331,17 @@ footer a:hover {
     border-radius: 25px;
     border: 0.4rem double #2580EC;
     width: 100%;
+}
+.border-styles2 {
+    border-radius: 25px;
+    border: 0.4rem double #2580EC;
+    width: 100%;
+	font-size: 110%;
+	font-weight:bold;
+}
+.border-styles2 ul{
+	font-size: 110%;
+	font-weight:bold;
 }
 .product-styles h5,
 .product-styles2 h5 {
@@ -287,10 +388,32 @@ footer a:hover {
     font-size: 120%;
 }
 .con-text h6 {
-    font-weight: 300;
+    font-weight: bold;
     font-size: 110%;
     color: #B855D5;
 }
+.con-text2{
+	font-size: 1rem;
+	font-weight:bold;
+}
+.con-text3, .bold{
+	font-weight:bold;
+}
+.con-text p{
+	line-height: 1.65;
+}
+
+.con-sub{
+	font-size:1rem;
+	font-weight: bold;
+}
+ul.con-list{
+	font-size:1rem;
+	font-weight: bold;
+	padding: 0 10% 0 10%;
+	margin: 1.25rem 0 1.25rem 0;
+}
+
 .list-styles {
     /* margin: 16px auto; */
     text-align: center;
@@ -312,6 +435,11 @@ footer a:hover {
     margin-top: 0.6rem;
     padding-bottom: 0rem;
 }
+h5{
+	font-size: 1.5rem!important;
+    font-weight: bold!important;
+}
+}
 .list-styles h9{
     padding-bottom: 1.2rem;
 }
@@ -322,6 +450,13 @@ footer a:hover {
 .list-squer{
     padding-left:0.03rem;
 }
+.listmoji{
+    font-size:110%;
+	color: #3B4043;
+	font-weight: bold;
+	opacity: 1;
+	line-height:1.75;
+}
 .list-squer li{
     background-image:url(../../img/icon-checkbox.png);
     background-repeat:no-repeat;
@@ -330,11 +465,11 @@ footer a:hover {
     margin-bottom: 0.8rem;
 }
 .brackets-wave-left:before {
-    content: '~';
+    content: '～';
     padding-right: 0.7rem;
 }
 .brackets-wave-right:before {
-    content: '~';
+    content: '～';
     padding-left: 0.7rem;
 }
  #ture {
@@ -383,18 +518,28 @@ footer a:hover {
     display: block;
 }
  .stuation-title-border {
-    border-top: #DEDEDE solid 0.1rem;
-    border-bottom: #DEDEDE solid 0.1rem;
+    border-top: #DEDEDF solid 0.2rem;
+    border-bottom: #DEDEDE solid 0.2rem;
+    font-weight: bold;
     padding: 0.6rem 0rem 0.6rem 0rem;
     width: 100%;
     display: block;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
+.setsumei{
+	font-size:1rem;
+}
 @media screen and (min-width: 1200px) {
-    
+/*　画面サイズが1200pxからはここを読み込む　*/
+	.top-text {
+        padding: 2rem 0rem 1.5rem 0rem!important;
+        text-align: left!important;
+        display: block;
+    }
     .text-left {
         /* text-align: left; */
         display: inline-block;
@@ -402,12 +547,17 @@ footer a:hover {
     }
     .spe-padding {
         padding:0px 150px 0px 150px;
+        margin-top: 1.875rem;
+        margin-bottom: 1.875rem;
     }
     .spe-padding2 {
         padding:0px 150px 0px 150px;
     }
+    .spe-margin-bm {
+    	margin-bottom: 1rem;
+    }
     .question-border {
-        border-right: dotted #999 3px;
+        border-right: solid #cacaca 2px;
     }
     .parent {
         width: auto;
@@ -415,11 +565,51 @@ footer a:hover {
         background-image:
         linear-gradient(27deg, #617FC5 60%, #fff 40%, #fff);
     }
- }
- 
+    .row2 {
+	    margin-right: 10%;
+    	margin-left: 10%;
+	}
+}
+
+@media screen and (min-width: 991px){ 
+/*　画面サイズが991pxからはここを読み込む　*/
+   .question-border {
+        border-right: solid #cacaca 2px;
+    }
+   .row2 {
+    margin-right: 5%;
+    margin-left: 5%;
+	}
+	.row3 {
+	margin-right: 7%;
+    margin-left: 7%;
+    }
+	.stuation-title-border {
+    padding: 1rem 0rem 1rem 0rem;
+    width: 50%;
+    }
+}
+@media screen and (min-width: 600px) and ( max-width:1024px){
+    .stuation-title-border {
+        width: 65%;
+    }
+}
 @media screen and (min-width: 600px) {
+/*　画面サイズが600pxからはここを読み込む　*/
     body {
         font-size: 90%;
+    }
+    .margin-bottom {
+    	margin-bottom: 4.125rem;
+	}
+	.row2 {
+ 	   margin-right: 0%;
+ 	   margin-left: 0%;
+	}
+    .text-left {
+        /* text-align: left; */
+        display: inline-block;
+        padding-left: 88px;
     }
     .parent {
         width: auto;
@@ -428,8 +618,8 @@ footer a:hover {
         linear-gradient(27deg, #617FC5 65%, #fff 35%, #fff);
     }
     .top-text {
-        padding: 2rem 0rem 2rem 0rem;
-        text-align: left;
+        padding: 2rem 0rem 1.5rem 0rem!important;
+        text-align: left!important;
         display: block;
     }
     .top-text h2{
@@ -439,7 +629,7 @@ footer a:hover {
         font-family: Hiragino Kaku Gothic ProN;   
     }
     .top-text p{
-        padding-top: 1.25rem;
+        padding-top: 1.5rem;
         font-weight: 300;
         font-size: 1.4rem;
         color: #FFF; 
@@ -447,8 +637,9 @@ footer a:hover {
     } 
     .con-title h3{
         text-align: center;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
         font: normal normal 600 2rem Yu Mincho;
+        color: #3B4043;
     }
     .con-title h4{
         margin-bottom: 1.875rem; 
@@ -457,20 +648,20 @@ footer a:hover {
         text-align: center;
         font: normal normal bold 1.375rem Source Han Sans JP;
     }
+    .con-sub {
+    	padding: 0 5% 0 5%;
+	}
     .stuation-title-border {
-       border-top: #DEDEDE solid 0.1rem;
-       border-bottom: #DEDEDE solid 0.1rem;
-       padding: 0.6rem 0rem 0.6rem 0rem;
-       width: 50%;
-       display: block;
-       text-align: center;
-       margin-left: auto;
-       margin-right: auto;
+        padding: 1rem 0rem 1rem 0rem;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
    }
    .border-styles {
        border-radius: 25px;
        border: 0.4rem double #2580EC;
-       width: 90%;
+       width: 100%;
    }
    .list-squer li{
        background-image:url(../../img/icon-checkbox.png);
@@ -482,6 +673,10 @@ footer a:hover {
    .padding-tb-sm {
        padding-top: 1.875rem;
        padding-bottom: 1.875rem;
+   }
+   .padding-tb-sm2 {
+       padding-top: 1rem;
+       padding-bottom: 1rem;
    }
    .char-vertical {
       -ms-writing-mode: horizontal-tb;
@@ -502,24 +697,45 @@ footer a:hover {
        margin-bottom: 1.875rem;
        text-align: center;
        font-size: 1.2rem;
+       background: #617FC5 0% 0% no-repeat padding-box;
+	   box-shadow: 0px 3px 6px #6F757966;
+       border-radius: 10px;
+       opacity: 1;
    }
    .card-body-title2{
        text-shadow: 0.063rem 0.188rem 0.063rem #00000033;
        background-color: #617FC5;
        color: #FFF;
-       padding: 0.938rem 0.313rem 0.938rem 0.313rem;
+       padding: 0.5rem 0.313rem 0.5rem 0.313rem;
        text-align: center;
        font-size: 1.2rem;
        border: 0rem ;
    }
     .card-text-detail {
       padding: 0px 0px 0px 0px;
-      font-size: 1.1rem;
+      font-size: 1rem;
+      font-weight: bold;
    }
    .copyright-style {
        font-size: 80%;
    }
  }
+@media screen and (min-width: 0px) and ( max-width:575px){
+/*　画面サイズが400pxからはここを読み込む　*/
+	.margin-bottom {
+    margin-bottom: 2rem;
+}
+	.row3 {
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	.con-title{
+	margin-bottom: 1rem;
+	}
+}
 @media screen and (min-width: 400px){ 
-
+/*　画面サイズが400pxからはここを読み込む　*/
+.card {
+    margin-bottom: 2rem;
+}
 }

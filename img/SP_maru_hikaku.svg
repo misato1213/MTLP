@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354" height="385" viewBox="0 0 354 385">
+  <defs>
+    <clipPath id="clip-SP_maru_hikaku">
+      <rect width="354" height="385"/>
+    </clipPath>
+  </defs>
+  <g id="SP_maru_hikaku" clip-path="url(#clip-SP_maru_hikaku)">
+    <rect width="354" height="385" fill="#fff"/>
+    <path id="パス_842" data-name="パス 842" d="M9.61,0h100.9a9.811,9.811,0,0,1,9.61,10V54H0V10A9.811,9.811,0,0,1,9.61,0Z" transform="translate(-0.124 12)" fill="#fff8f8"/>
+    <path id="長方形_1271" data-name="長方形 1271" d="M10,0H224a10,10,0,0,1,10,10V66a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(120)" fill="#ffdffe"/>
+    <g id="グループ_1700" data-name="グループ 1700" transform="translate(-13 -3762)">
+      <text id="運用コスト" transform="translate(105 3830)" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="32.5" y="23">運用コスト</tspan></text>
+      <g id="グループ_1588" data-name="グループ 1588" transform="translate(169.642 3879)">
+        <circle id="楕円形_10" data-name="楕円形 10" cx="18" cy="18" r="18" transform="translate(0.358 0)" fill="#ff4040"/>
+      </g>
+      <circle id="楕円形_11" data-name="楕円形 11" cx="14" cy="14" r="14" transform="translate(174 3883)" fill="#fff"/>
+      <g id="グループ_1663" data-name="グループ 1663" transform="translate(-408.757 1004)">
+        <path id="長方形_1202" data-name="長方形 1202" d="M10,0H240a10,10,0,0,1,10,10V66a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(309.757 2758)" fill="none"/>
+      </g>
+      <path id="多角形_5" data-name="多角形 5" d="M20,0,40,34H0Z" transform="translate(54 3878)" fill="#4a4a4a"/>
+      <path id="多角形_6" data-name="多角形 6" d="M13,0,26,21H0Z" transform="translate(61 3887)" fill="#fff"/>
+      <text id="M2T" transform="translate(138 3799)" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="35.524" y="16">M2T</tspan></text>
+      <text id="M4T" transform="translate(257 3799)" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="35.524" y="16">M4T</tspan></text>
+      <path id="長方形_1203" data-name="長方形 1203" d="M10,0H240a10,10,0,0,1,10,10V49a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V10A10,10,0,0,1,10,0Z" transform="translate(195 3779)" fill="none"/>
+      <path id="パス_796" data-name="パス 796" d="M0,0H353.775" transform="translate(12.792 3828)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <text id="MultiTrack_" data-name="MultiTrack
+" transform="translate(189.159 3768.163)" font-size="18" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="15.894" y="21">MultiTrack</tspan></text>
+      <g id="グループ_1587" data-name="グループ 1587" transform="translate(288.574 3878)">
+        <g id="グループ_1585" data-name="グループ 1585" transform="translate(0 0)">
+          <circle id="楕円形_6" data-name="楕円形 6" cx="18" cy="18" r="18" transform="translate(0.426 0)" fill="#ff4040"/>
+          <circle id="楕円形_7" data-name="楕円形 7" cx="14" cy="14" r="14" transform="translate(4.426 4)" fill="#fff"/>
+        </g>
+        <g id="グループ_1586" data-name="グループ 1586" transform="translate(7.45 6.773)">
+          <ellipse id="楕円形_6-2" data-name="楕円形 6" cx="11" cy="11.5" rx="11" ry="11.5" transform="translate(-0.024 0.227)" fill="#ff4040"/>
+          <circle id="楕円形_7-2" data-name="楕円形 7" cx="7.5" cy="7.5" r="7.5" transform="translate(3.976 4.227)" fill="#fff"/>
+        </g>
+      </g>
+      <path id="パス_810" data-name="パス 810" d="M0,0H353.775" transform="translate(12.792 3863)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <path id="パス_812" data-name="パス 812" d="M0,0H353.775" transform="translate(12.792 3933)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <text id="学習効率_短期_" data-name="学習効率(短期)" transform="translate(105 3936)" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="14.94" y="23">学習効率(短期)</tspan></text>
+      <g id="グループ_1694" data-name="グループ 1694" transform="translate(169.642 3987)">
+        <circle id="楕円形_10-2" data-name="楕円形 10" cx="18" cy="18" r="18" transform="translate(0.358 0)" fill="#ff4040"/>
+      </g>
+      <circle id="楕円形_12" data-name="楕円形 12" cx="14" cy="14" r="14" transform="translate(174 3991)" fill="#fff"/>
+      <path id="パス_813" data-name="パス 813" d="M0,0H353.775" transform="translate(12.792 3971)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <path id="パス_814" data-name="パス 814" d="M0,0H353.775" transform="translate(12.792 4041)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <g id="グループ_1696" data-name="グループ 1696" transform="translate(-47 11)">
+        <g id="グループ_1585-2" data-name="グループ 1585" transform="translate(103 3976)">
+          <circle id="楕円形_6-3" data-name="楕円形 6" cx="18" cy="18" r="18" fill="#4a4a4a"/>
+          <circle id="楕円形_7-3" data-name="楕円形 7" cx="13.5" cy="13.5" r="13.5" transform="translate(5 5)" fill="#fff"/>
+        </g>
+        <g id="グループ_1586-2" data-name="グループ 1586" transform="translate(111.283 3984.283)">
+          <circle id="楕円形_6-4" data-name="楕円形 6" cx="10.5" cy="10.5" r="10.5" transform="translate(-0.283 -0.283)" fill="#4a4a4a"/>
+          <circle id="楕円形_7-4" data-name="楕円形 7" cx="7.5" cy="7.5" r="7.5" transform="translate(2.717 2.717)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="グループ_1697" data-name="グループ 1697" transform="translate(288.642 3987)">
+        <circle id="楕円形_10-3" data-name="楕円形 10" cx="18" cy="18" r="18" transform="translate(0.358 0)" fill="#ff4040"/>
+      </g>
+      <circle id="楕円形_13" data-name="楕円形 13" cx="14" cy="14" r="14" transform="translate(293 3991)" fill="#fff"/>
+      <text id="学習効率_中期_" data-name="学習効率(中期)" transform="translate(105 4043)" font-size="20" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="14.94" y="23">学習効率(中期)</tspan></text>
+      <path id="パス_815" data-name="パス 815" d="M0,0H353.775" transform="translate(12.792 4077)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <path id="パス_816" data-name="パス 816" d="M0,0H353.775" transform="translate(12.792 4147)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <g id="グループ_1698" data-name="グループ 1698" transform="translate(169.642 4094)">
+        <circle id="楕円形_10-4" data-name="楕円形 10" cx="18" cy="18" r="18" transform="translate(0.358 0)" fill="#ff4040"/>
+      </g>
+      <circle id="楕円形_14" data-name="楕円形 14" cx="14" cy="14" r="14" transform="translate(174 4098)" fill="#fff"/>
+      <path id="多角形_7" data-name="多角形 7" d="M20,0,40,34H0Z" transform="translate(54 4093)" fill="#4a4a4a"/>
+      <path id="多角形_8" data-name="多角形 8" d="M13,0,26,21H0Z" transform="translate(61 4102)" fill="#fff"/>
+      <g id="グループ_1699" data-name="グループ 1699" transform="translate(288.574 4093)">
+        <g id="グループ_1585-3" data-name="グループ 1585" transform="translate(0 0)">
+          <circle id="楕円形_6-5" data-name="楕円形 6" cx="18" cy="18" r="18" transform="translate(0.426 0)" fill="#ff4040"/>
+          <circle id="楕円形_7-5" data-name="楕円形 7" cx="14" cy="14" r="14" transform="translate(4.426 4)" fill="#fff"/>
+        </g>
+        <g id="グループ_1586-3" data-name="グループ 1586" transform="translate(7.45 6.773)">
+          <ellipse id="楕円形_6-6" data-name="楕円形 6" cx="11" cy="11.5" rx="11" ry="11.5" transform="translate(-0.024 0.227)" fill="#ff4040"/>
+          <circle id="楕円形_7-6" data-name="楕円形 7" cx="7.5" cy="7.5" r="7.5" transform="translate(3.976 4.227)" fill="#fff"/>
+        </g>
+      </g>
+      <text id="従来の研修" transform="translate(24 3787)" font-size="14" font-family="SourceHanSansJP-Bold, Source Han Sans JP" font-weight="700"><tspan x="15" y="16">従来の研修</tspan></text>
+      <path id="パス_850" data-name="パス 850" d="M0,0H70" transform="translate(132.5 3863) rotate(90)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <path id="パス_851" data-name="パス 851" d="M0,0H70" transform="translate(132.5 3971) rotate(90)" fill="none" stroke="#dedede" stroke-width="1"/>
+      <path id="パス_852" data-name="パス 852" d="M0,0H70" transform="translate(132.5 4077) rotate(90)" fill="none" stroke="#dedede" stroke-width="1"/>
+    </g>
+    <path id="パス_853" data-name="パス 853" d="M0,0H319.5" transform="translate(0 65.5) rotate(90)" fill="none" stroke="#dedede" stroke-width="1"/>
+    <path id="パス_854" data-name="パス 854" d="M0,0H319.5" transform="translate(354 65.5) rotate(90)" fill="none" stroke="#dedede" stroke-width="1"/>
+  </g>
+</svg>
