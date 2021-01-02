@@ -1,10 +1,7 @@
 body {
     background: #ffffff;
     color: #000;
-    font-family: '源ノ角ゴシック',
-    			 'Source Han Sans JP',
-                "Hiragino Kaku Gothic ProN",
-                "Hiragino Sans";
+    font-family: 'Noto Sans JP', sans-serif,'Noto Serif JP', serif,'源ノ角ゴシック','Source Han Sans JP',"Hiragino Kaku Gothic ProN","Hiragino Sans";
 }
 .text-left {
         display: inline-block;
@@ -180,14 +177,14 @@ footer a:hover {
     font-weight: 500;
     font-size: 2.1rem;
     color: #FFF; 
-    font-family: Hiragino Kaku Gothic ProN;   
+    font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;   
 }
 .top-text p{
     padding-top: 0.5rem;
     font-weight: 200;
     font-size: 0.9rem;
     color: #FFF; 
-    font-family: Hiragino Kaku Gothic ProN;    
+    font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;    
 }
 /* Contents */
 .con-title h3{
@@ -627,14 +624,14 @@ h5{
         font-weight: 500;
         font-size: 2.7rem;
         color: #FFF; 
-        font-family: Hiragino Kaku Gothic ProN;   
+        font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;   
     }
     .top-text p{
         padding-top: 1.5rem;
         font-weight: 300;
         font-size: 1.4rem;
         color: #FFF; 
-        font-family: Hiragino Kaku Gothic ProN;
+        font-family: 'Noto Sans JP', sans-serif,Hiragino Kaku Gothic ProN;
     } 
     .con-title h3{
         text-align: center;
